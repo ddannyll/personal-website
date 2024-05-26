@@ -1,8 +1,6 @@
 import DisplayName from "@/components/displayName";
 import Header from "@/components/header";
 import ImageCaption, { Camera, Film, Lens } from "@/components/imageCaption";
-import SortableLinks, { Sortable } from "@/components/sortableLinks";
-import { IconArrowLeft } from "@tabler/icons-react";
 import Image from "next/image";
 
 export default function Home() {
