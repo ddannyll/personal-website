@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </div>
         <Timeline
-          className="right-0 py-20 overflow-hidden"
+          className="right-0 py-20 overflow-y-hidden"
           nodes={[
             {
               title: "Software Engineer Intern @ Freelancer",
