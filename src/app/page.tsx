@@ -17,6 +17,7 @@ export default function Home() {
       <div className="max-w-screen-xl px-2 md:px-8 mx-auto text-red-400 pt-12">
         <Header pageTitle="swe portfolio" canGoBack></Header>
         <Image
+          unoptimized
           src={"/background_dev.jpg"}
           alt="background"
           width={1920}
