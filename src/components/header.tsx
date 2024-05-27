@@ -11,7 +11,9 @@ export default function Header({ canGoBack, pageTitle }: HeaderProps) {
       {canGoBack && (
         <Link href={"/"} className="flex items-center gap-2">
           <IconArrowLeft size={20} strokeWidth={1}></IconArrowLeft>
-          back to home
+          <span>
+            <span className="hidden sm:inline">back to </span>home
+          </span>
         </Link>
       )}
       <h2 className="text-center col-start-2">ddannyll</h2>
